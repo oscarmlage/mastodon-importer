@@ -1,0 +1,32 @@
+{
+    "@context":"https://www.w3.org/ns/activitystreams",
+    "id":"sample.json",
+    "type":"OrderedCollection",
+    "totalItems":2,
+    "orderedItems":[
+        {
+            "id":"https://mastodon.social/users/oscarmlage/statuses/16911734/activity",
+            "type":"Create",
+            "actor":"https://mastodon.social/users/oscarmlage",
+            "published":"2017-09-03T20:08:04Z",
+            "to":["https://www.w3.org/ns/activitystreams#Public"],
+            "cc":["https://mastodon.social/users/oscarmlage/followers","https://mastodon.social/users/joedicastro"],
+            "object":{
+                "id":"https://mastodon.social/users/oscarmlage/statuses/16911734",
+                "type":"Note",
+                "published":"2017-09-03T20:08:04Z",
+                "url":"https://mastodon.social/@oscarmlage/16911734",
+                "content": "whatever content over there"
+            }
+        },
+        {
+            "id":"https://mastodon.social/users/oscarmlage/statuses/99768567584416785/activity",
+            "type":"Create",
+            "actor":"https://mastodon.social/users/oscarmlage",
+            "published":"2018-06-04T19:34:23Z",
+            "to":["https://www.w3.org/ns/activitystreams#Public"],
+            "cc":["https://mastodon.social/users/oscarmlage/followers","https://mastodon.social/users/joedicastro"],
+            "object": "https://mastodon.social/users/mr_solo/statuses/99766633829561394"
+        }
+    ]
+}
