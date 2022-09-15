@@ -6,7 +6,7 @@ It uses a `sample.json` file as input (you can get this file in your mastodon in
 
 ## Warning
 
-As said, it's not fully usable yet, it's a WIP (for now it's not looping over all the json data, it just creates a hello world in the account with id=1), but it could be a good startpoint if you need a tool like this.
+As said, it's not fully usable yet, it's a WIP (for now it's not looping over all the json data, it just creates a hello world toot in the account with id=1), but it could be a good startpoint if you need a tool like this.
 
 ## Guidelines
 
@@ -24,4 +24,4 @@ As said, it's not fully usable yet, it's a WIP (for now it's not looping over al
 
 ### Final notes
 
-Feel free to modify the script in order to fill your needs.
+Feel free to modify the script in order to fill your needs. Of course, mentions and patches (PRs, etc...) are more than welcome!
