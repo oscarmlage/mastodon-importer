@@ -2,12 +2,16 @@
 
 A simple script to start playing with mastodon importing toots. It's just a startpoint because it's not fully usable yet.
 
-It uses a `sample.json` file as input (you can get this file in your mastodon instance server, under settings + export information).
+It uses a `sample.json` file as input (you can get this file in your mastodon instance server, under preferences + export information).
+
+## Warning
+
+As said, it's not fully usable yet, it's a WIP (for now it's not looping over all the json data, it just creates a hello world in the account with id=1), but it could be a good startpoint if you need a tool like this.
 
 ## Guidelines
 
 * Get your `sample.json` from your mastodon instance server
-    * Prefrences
+    * Preferences
     * Import and Export
     * Request your data
     * Extract the zip and get the `outbox.json`
