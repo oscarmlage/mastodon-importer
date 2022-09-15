@@ -22,6 +22,14 @@ As said, it's not fully usable yet, it's a WIP (for now it's not looping over al
   * `go build`. Take in account **where** you will run the binary. I mean I've developed it under macos darwin but I wanted to run it on my mastodon instance machine, so I compiled it with some flags in order to get it running: `GOOS=linux GOARCH=amd64 go build`
 * Move the binary and the `outbox.json` to the server (ensure path matches) and profit.
 
-### Final notes
+
+## Resources
+
+- [UnmarshalJSON stuff](https://medium.com/@nate510/dynamic-json-umarshalling-in-go-88095561d6a0)
+- [godotenv](https://golangbyexample.com/load-env-fiie-golang/)
+- [Something similar but in JS](https://gitlab.com/umonaca/mastodon-toots-migration-queries-generator/-/blob/cat/index.js)
+- [How to migrate from one Mastodon server to another one](https://mastodon.social/@Gargron/103393780267601137)
+
+## Final notes
 
 Feel free to modify the script in order to fill your needs. Of course, mentions and patches (PRs, etc...) are more than welcome!
